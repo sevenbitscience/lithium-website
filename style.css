@@ -1,9 +1,19 @@
+body {
+    margin: 0;
+}
 .header {
-    width: auto;
-    height: auto;
+    padding: 10px 0px;
     background-color: black;
-    border-radius: 1rem;
-    padding: 0.2rem;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky + .content {
+    padding-top: 102px;
 }
 
 .element {
@@ -17,7 +27,7 @@
     color: rgb(194, 194, 194);
     background: rgb(27, 27, 27);
     text-align: left;
-    margin: 0 auto;
+    margin: 0.2rem;
 }
 
 .elemsymb {
@@ -36,4 +46,13 @@
 
 .elemname {
     display: inline;
+}
+
+.content {
+    padding: 16px;
+}
+
+.scroll-spacer {
+    height: 1000px;
+    border: 2px solid black;
 }
