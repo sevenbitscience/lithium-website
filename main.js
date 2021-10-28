@@ -1,8 +1,8 @@
-$(document).ready(function () {
+$(document).ready(function () {    
     var headerclosed = false;
 
     $(window).scrollTop(0);
-
+    
     $(window).scroll(function() {
         if ($(document).scrollTop() > 3 && headerclosed == false) {
             headerclosed = true;
