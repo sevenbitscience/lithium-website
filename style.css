@@ -12,20 +12,22 @@ body {
     width: 100%
 }
 
-.sticky + .content {
-    padding-top: 102px;
+.content {
+    padding: 1rem;
+    padding-top: 9rem;
 }
 
 .element {
-    width: 5rem;
-    height: 5.5rem;
+    width: 18.2rem;
+    height: 5.2rem;
     align-content: center;
     border: 0.3rem solid black;
     border-radius: 0.6rem;
     padding: 0.4rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
     color: rgb(194, 194, 194);
-    background: rgb(27, 27, 27);
+    background: rgb(34, 34, 34);
     text-align: left;
     margin: 0.2rem;
 }
@@ -36,21 +38,15 @@ body {
     margin: auto;
 }
 
-.elemnum {
+.elemnum, .elemmass {
     margin: auto;
-}
-
-.elemmass {
-    margin: auto;
+    font-size: 0rem;
 }
 
 .elemname {
     display: inline;
 }
 
-.content {
-    padding: 16px;
-}
 
 .scroll-spacer {
     height: 1000px;
