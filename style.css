@@ -15,10 +15,9 @@ body {
 }
 
 .content {
-    padding: 1rem;
+    padding: 0 auto;
     height: 100rem;
-    background: rgb(77, 77, 77);
-    color: rgb(255, 255, 255);
+    background: rgb(102, 102, 102);
     border: 0.2rem solid rgb(0, 0, 0);
     border-radius: 1rem;
     width: 90%;
@@ -27,10 +26,14 @@ body {
 
 .section {
     width: 70%;
-    margin: 0 auto;
-    background: rgb(15, 15, 15);
-    padding: 0.5rem;
-    border: 0 solid black;
+    margin: 1rem auto 2rem;
+    color: rgb(216, 216, 216);
+    background: rgb(20, 20, 20);
+    text-align: center;
+    padding: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    border: 0.2rem solid black;
     border-radius: 1.4rem;
 }
 
@@ -45,7 +48,14 @@ body {
     font-size: 1.2em;
     width: fit-content;
     margin: 0 auto;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.2rem;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    height: 2rem;
+    background-color: black;
 }
 
 .element {
