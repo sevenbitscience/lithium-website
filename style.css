@@ -44,6 +44,7 @@ body {
 }
 
 .section p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1em;
     width: fit-content;
     margin: 0 auto;
